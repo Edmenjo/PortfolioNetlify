@@ -1,0 +1,22 @@
+{
+  "name": "chorra",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/three": "^0.139.0",
+    "@types/webgi": "https://storage.googleapis.com/dist.pixotronics.com/webgi/runtime/bundle-types-0.5.5.tgz",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.9",
+    "webgi": "https://storage.googleapis.com/dist.pixotronics.com/webgi/runtime/bundle-0.5.5.tgz"
+  },
+  "dependencies": {
+    "@studio-freight/lenis": "^0.2.28",
+    "gsap": "^3.11.1"
+  }
+}
